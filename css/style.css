@@ -1,0 +1,20 @@
+.header{
+    height:300px;
+    width:100%;
+}
+.header form label{
+    color:rgba(255,211,102,1);
+}
+.header form input{
+    border:3px solid rgba(255,211,102,1);
+    background-color:rgba(255,255,255,0.5);
+    border-radius:6px;
+}
+#sendData{
+    width:120px;
+    height:120px;
+    border-radius:100%;
+}
+.border-left{
+    border-left:10px solid !important;
+}

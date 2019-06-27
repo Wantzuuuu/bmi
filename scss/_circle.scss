@@ -1,0 +1,11 @@
+@each $color, $value in $theme-colors {
+  .circle-#{$color} {
+    margin:15px 15px ;
+    width:123px;
+    height:123px;
+    border:5px solid $value;
+    border-radius:100%;
+  }
+}
+
+

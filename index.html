@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bmi計算</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header bg-dark  d-flex align-items-center">
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-4 text-right">
+                    <img width="117px" height="117px" src="./img/BMICLogo.png" alt="">
+                </div>
+                <div class="col-4 text-center">
+                    <form>
+                        <label for="#userHeight">身高cm</label>
+                        <br>
+                        <input type="number" id="userHeight" placeholder="請輸入身高" required>
+                        <br>
+                        <label for="#userWeight">體重kg</label>
+                        <br>
+                        <input type="number" id="userWeight" placeholder="請輸入體重" required>
+                    </form>
+                </div>
+                <div class="col-4" id="renderBtn">
+                    <button class="btn btn-warning" id="sendData">看結果</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5">
+        <h2 class="text-center text-dark">BMI紀錄</h2>
+        <div class="container">
+            <div id="renderList" class="row justify-content-center">
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="all.js"></script>
+</body>
+
+</html>
